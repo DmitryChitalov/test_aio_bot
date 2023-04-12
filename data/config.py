@@ -1,0 +1,10 @@
+BOT_TOKEN = '6115630816:AAGzqaXaToa66-mGqbVGtNOoZfnO7zNKLyE'
+
+PROJECT_NAME = 'test_aio_bot'
+
+WEBHOOK_HOST = f"https://{PROJECT_NAME}.onrender.com"
+WEBHOOK_PATH = '/webhook/' + BOT_TOKEN
+WEBHOOK_URL = f'{WEBHOOK_HOST}{WEBHOOK_PATH}'
+
+# например, ADMINS = [000000000, 1234567890]
+ADMINS = []
